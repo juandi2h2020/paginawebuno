@@ -1,0 +1,92 @@
+/* ======= TIPOGRAFÍA ======= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f0f0f, #1d1d1d);
+    color: #eaeaea;
+    line-height: 1.7;
+}
+
+/* ======= SECCIONES ======= */
+section {
+    width: 85%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #1a1a1a;
+    border-radius: 18px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+/* ======= TITULOS ======= */
+h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ======= PÁRRAFOS ======= */
+p {
+    font-size: 1.15rem;
+    color: #d1d1d1;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* ======= FOTO ======= */
+.foto {
+    display: block;
+    width: 260px;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+    transition: transform 0.2s ease;
+}
+
+.foto:hover {
+    transform: scale(1.03);
+}
+
+/* ======= IFRAMES ======= */
+iframe {
+    display: block;
+    margin: 25px auto;
+    width: 100%;
+    max-width: 700px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+}
+
+/* ======= RESPONSIVE ======= */
+@media (max-width: 600px) {
+    section {
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    p {
+        font-size: 1.05rem;
+    }
+
+    .foto {
+        width: 200px;
+    }
+}
